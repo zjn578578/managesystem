@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container" align="center">
+     <h1>welcome!</h1>
+  <p>欢迎进入javabus纺机管理系统</p>
+  </div>
+</div>
+
+<div align="center" style=" position: relative;top:0px">
+<font size="5" color="black">要删除的纺机编号：</font>
+<input id="dxnumber" class="text2"type="text" >
+</div>
+
+<div align="center" style="position: relative;top:30px">
+	<button class="btn btn btn-primary btn-lg" type="submit" style="width: 200px" onclick="xinxidelete()">删除该纺机</button>
+</div>
+
+<div align="center" style=" position: relative;top:60px">
+<font size="5" color="black">要删除的管理人员编号：</font>
+<input id="dmnumber" class="text2"type="text" >
+</div>
+<div align="center" style="position: relative;top:90px">
+	<button class="btn btn btn-primary btn-lg" type="submit" style="width: 200px" onclick="menberdelete()">删除该管理人员</button>
+</div>
+<div align="center" style="position: relative;top:120px">
+	<button class="btn btn btn-primary btn-lg" type="submit" style="width: 200px" onclick="main()">返回主界面</button>
+</div>
+</body>
+</html>
